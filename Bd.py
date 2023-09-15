@@ -9,7 +9,7 @@ def conectarMysql(host, user, passwd, database=None):
     )
     return conectar
 
-conectar = conectarMysql('localhost', 'root', 'Lili0710')
+conectar = conectarMysql('localhost', 'root', 'XXXXXX')
 
 banco = '''
     CREATE DATABASE IF NOT EXISTS bdprojetoimpacta
@@ -18,7 +18,7 @@ cursor = conectar.cursor()
 cursor.execute(banco)
 conectar.close()
 
-conectar = conectarMysql('localhost', 'root', 'Lili0710', 'bdprojetoimpacta')
+conectar = conectarMysql('localhost', 'root', 'XXXXXX', 'bdprojetoimpacta')
 
 criartabeladados_rj = """
 CREATE TABLE IF NOT EXISTS dados_rj (
