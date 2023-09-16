@@ -1,8 +1,9 @@
 # Projeto - Software Product
  
-#Linguagens Utilizadas:
+# Linguagens Utilizadas:
 	#SQL
 	#PYTHON
+
 PREPARAÇÃO:
 Instalar IDE Python
 	Utilizado no projeto – PyCharm
